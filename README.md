@@ -3,11 +3,11 @@
 ## General Rules
 
 * Always create the branches over the JIRA (except master branch and release branches)
-* Every Release, Feature or Bugfix …etc.  must have an own branch
-* Always start your first “commit description”  with the JIRA Issue Key.
+* Every Release, Feature or Bugfix …etc. must have an own branch
+* Always start your first “commit description” with the JIRA Issue Key.
 * Never push to the master without a Pull request
 * After pushing to the master add a tag for that commit. You should always be able to back that specific release (time-traveling) for starting a hotfix 
-* After pushing to the master  close push option for the release branches
+* After pushing to the master close push option for the release branches
 * Create the release branch as late as possible.
 
 ## Naming Convention
@@ -35,7 +35,7 @@ For example:
 
 # How to create a branch from JIRA 
 
-Use the Development > Create a branch to create a new branch over JIRA:
+Use the Development > Create a branch to create a new branch over JIRA:
 
 ![Step 1](./CREATE-BRANCH-1.png)
 
