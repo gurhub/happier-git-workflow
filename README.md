@@ -43,9 +43,17 @@ Don't forget to select a branch type, check before submitting, currently JIRA wo
 
 ![Step 2](./CREATE-BRANCH-2.png) 
 
-If you see formatting like below for "Branch name", please communicate your Project Owner/Manager or SCM Team (Software Configuration Management):
+If you see formatting like below for the *Branch name*, please communicate your Product Owner, Project Manager or SCM Team (Software Configuration Management):
 
+
+**Not**
 ```
 * feature-your-issue-key
-* release1-1
+* bug-your-issue-key
+```
+
+**Correct**
+```
+* feature/your-issue-key
+* bug/your-issue-key
 ```
