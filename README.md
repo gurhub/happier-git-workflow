@@ -35,11 +35,11 @@ For example:
 
 # How to create a branch from JIRA 
 
-Use the Development > Create a branch to create a new branch over JIRA:
+Use the *Development > Create a branch* to create a new branch over the JIRA.
 
 ![Step 1](./CREATE-BRANCH-1.png)
 
-Don't forget to select a branch type, check before submitting, currently JIRA won't select the correct type. Then click to the Create Branch button.
+Don't forget to select a branch type, check before submitting, currently JIRA won't select the correct type. Then click to the *Create Branch* button.
 
 ![Step 2](./CREATE-BRANCH-2.png) 
 
