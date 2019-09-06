@@ -1,8 +1,5 @@
 # Happier Git Workflow
 
-## Description
-A happier Git Workflow for most of us.
-
 ## General Rules
 
 * Always create the branches over the JIRA (except master branch and release branches)
