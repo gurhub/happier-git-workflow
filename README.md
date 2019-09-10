@@ -21,7 +21,7 @@ Don't use a Build Phase script for increasing your build number for each build.
 ```
 [version].[build number].
 ```		
-For example:
+An example would be::
 ```
 1.5.9.201
 ```
@@ -66,10 +66,11 @@ For *SCM* tasks we can create a special tag like the line below:
 [testflight]-[version]
 ```
 
+An example would be:
+
 ```
 tesflight-1.1.5
 ```
-
 
 
 this should trigger your CD (Continuous Delivery) flow. 
