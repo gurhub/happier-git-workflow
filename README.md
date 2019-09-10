@@ -21,7 +21,7 @@ Don't use a Build Phase script for increasing your build number for each build.
 ```
 [version].[build number].
 ```		
-An example would be::
+An example would be:
 ```
 1.5.9.201
 ```
