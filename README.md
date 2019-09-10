@@ -72,5 +72,9 @@ An example would be:
 tesflight-1.1.5
 ```
 
-
 this should trigger your CD (Continuous Delivery) flow. 
+
+
+#Exceptions
+
+Normally, after merging all branches you shouldn't push any commit to the *release branch*. But in practice that's not the case. You might need to update your IDE or increase the build number of your application under this branch. After updating your IDE, the application might update some of the configuration files. We can't put this commits in other branches. And that's not easy to create different JIRA issues for each *special case*. So, we need to use our *release branches* for this purpose too.
