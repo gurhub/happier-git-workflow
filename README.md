@@ -70,10 +70,10 @@ testflight-[version]
 an example would be:
 
 ```
-tesflight-1.1.5
+testflight-1.1.5
 ```
 
-this should trigger your CD (Continuous Delivery) flow. 
+this should trigger your CD (Continuous Delivery) flow. Also, you can check [Fastlane document](https://github.com/gurhub/fastlane).
 
 
 # Exceptions
