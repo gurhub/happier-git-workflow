@@ -2,7 +2,7 @@
 
 ## General Rules
 
-* Always create the branches over the JIRA (except master branch and release branches)
+* Always create the branches over the JIRA (except master branch)
 * Every Release, Feature or Bugfix …etc. must have an own branch
 * Always start your first “commit description” with the JIRA Issue Key.
 * Never push to the master without a Pull request
