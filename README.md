@@ -20,7 +20,7 @@
 Don't use a Build Phase script for increasing your build number for each build. 
 * Use this tag formatting: 
 ```
-[version].[build number].
+[version].[build number]
 ```		
 an example would be:
 ```
