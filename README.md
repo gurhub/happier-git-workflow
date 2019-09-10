@@ -64,7 +64,7 @@ If you see formatting like below for the *Branch name*, please communicate your 
 For *SCM* tasks we should create a special tag like the line below: 
 
 ```
-[testflight]-[version]
+testflight-[version]
 ```
 
 an example would be:
