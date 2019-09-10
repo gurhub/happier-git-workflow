@@ -63,7 +63,13 @@ If you see formatting like below for the *Branch name*, please communicate your 
 For *SCM* tasks we can create a special tag like the line below: 
 
 ```
+[testflight]-[version]
+```
+
+```
 tesflight-1.1.5
 ```
+
+
 
 this should trigger your CD (Continuous Delivery) flow. 
