@@ -2,7 +2,7 @@
 
 ## General Rules
 
-* Always create the branches over the JIRA (except master branch)
+* Always create the branches over the JIRA (except the master branch)
 * Every Release, Feature or Bugfix …etc. must have an own branch
 * Always start your first “commit description” with the JIRA Issue Key.
 * Never push to the master without a Pull request
@@ -21,7 +21,7 @@ Don't use a Build Phase script for increasing your build number for each build.
 ```
 [version].[build number].
 ```		
-An example would be:
+an example would be:
 ```
 1.5.9.201
 ```
@@ -60,13 +60,13 @@ If you see formatting like below for the *Branch name*, please communicate your 
 
 # SCM (Software Configuration Management) Processes
 
-For *SCM* tasks we can create a special tag like the line below: 
+For *SCM* tasks we should create a special tag like the line below: 
 
 ```
 [testflight]-[version]
 ```
 
-An example would be:
+an example would be:
 
 ```
 tesflight-1.1.5
