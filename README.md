@@ -73,7 +73,7 @@ an example would be:
 testflight-1.1.5
 ```
 
-this should trigger your CD (Continuous Delivery) flow. Also, you can check [Fastlane document](https://github.com/gurhub/fastlane).
+this should trigger your CD (Continuous Delivery) flow. Also, you can check the [Fastlane document](https://github.com/gurhub/fastlane).
 
 
 # Exceptions
