@@ -47,7 +47,7 @@ Don't forget to select a branch type, check before submitting, currently JIRA wo
 If you see formatting like below for the *Branch name*, please communicate your Product Owner, Project Manager or SCM Team (Software Configuration Management):
 
 
-**Not**
+**Incorrect**
 ```
 * feature-your-issue-key
 * bug-your-issue-key
