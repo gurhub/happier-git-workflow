@@ -27,7 +27,7 @@ an example would be:
 1.5.9.201
 ```
 
-* Your JIRA issues must have a formatting like line below:
+* Your branches must have formatting like the line below:
 
 ```
 * feature/your-jira-issue-key
