@@ -32,6 +32,7 @@ an example would be:
 ```
 * feature/your-jira-issue-key
 * bugfix/your-jira-issue-key
+* release/release-1.5.9
 ```
 
 # How to create a branch on the JIRA Software
@@ -57,6 +58,8 @@ If you see formatting like below for the *Branch name*, please communicate your 
 ```
 * feature/your-issue-key
 * bug/your-issue-key
+* release/your-[version]
+
 ```
 
 # SCM (Software Configuration Management) Processes
