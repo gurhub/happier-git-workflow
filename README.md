@@ -5,7 +5,7 @@
 * If it’s possible, create branches over the JIRA (except the master branch)
 * Every Release must have a *Release Package* on the JIRA
 * Every Release, Feature or Bugfix …etc. must have an own branch
-* Always add the JIRA Issue Key in the “commit description”
+* For each commit add the JIRA Issue Key in the “commit description”
 * Never push to the master without a Pull request
 * After pushing to the master add a tag for that commit. You should always be able to back that specific release (time-traveling) for starting a hotfix 
 * After pushing to the master close push option for the release branches
