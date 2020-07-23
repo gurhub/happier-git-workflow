@@ -10,6 +10,7 @@
 * After pushing to the master add a tag for that commit. You should always be able to back that specific release (time-traveling) for starting a hotfix 
 * After pushing to the master close push option for the release branches
 * Create the release branch as late as possible.
+* If you're using the Cocoapods, Push the Pod directory with your project, don't add in your .gitignore file. 
 
 ## Naming Convention
 
