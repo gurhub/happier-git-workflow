@@ -35,6 +35,8 @@ an example would be:
 * release/release-1.5.9
 ```
 
+* *short-title* is a maximum of 5 words that describe what that issue is about.
+
 # How to create a branch on the JIRA Software
 
 Use the *Development > Create a branch* to create a new branch over the JIRA.
@@ -56,8 +58,8 @@ If you see formatting like below for the *Branch name*, please communicate your 
 
 **Correct**
 ```
-* feature/your-issue-key
-* bug/your-issue-key
+* feature/your-jira-issue-key-[short-title]
+* bug/your-jira-issue-key-[short-title]
 * release/your-[version]
 
 ```
