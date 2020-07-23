@@ -35,7 +35,7 @@ an example would be:
 * release/release-1.5.9
 ```
 
-* *short-title* is a maximum of 5 words that describe what that issue is about.
+⚠️ **short-title** is a maximum of 5 words that describe what that issue is about.
 
 # How to create a branch on the JIRA Software
 
