@@ -2,7 +2,8 @@
 
 ## General Rules
 
-* If it’s possible, create branches over the JIRA (except the master branch)
+* No code can commit to the repository, without a JIRA issue and a commit related to that issue
+* Create branches over the JIRA (except the master branch)
 * Every Release must have a *Release Package* on the JIRA
 * Every Release, Feature or Bugfix …etc. must have an own branch
 * For each commit add the JIRA Issue Key in the “commit description”
