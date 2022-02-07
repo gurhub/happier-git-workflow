@@ -16,17 +16,17 @@
 ## Naming Convention
 
 * All your branch names must be in lowercase
-* Your master branch should be named as "master"
+* Your master branch should be named as "master" or "main"
 * Use this formatting for your release branches: release-1.3 or release-1.1.3
 * Update your build number only if you send a build for Testflight or QA Team. If you have a freshly started project, start from number "1". 
 Don't use a Build Phase script for increasing your build number for each build. 
 * Use this tag formatting: 
 ```
-[version].[build number]
+v[version].[build number]
 ```		
 an example would be:
 ```
-1.5.9.201
+v1.5.9.201
 ```
 
 * Your branches must have formatting like the line below:
