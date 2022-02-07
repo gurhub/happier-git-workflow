@@ -1,14 +1,14 @@
 # Happier Git Workflow
 
-## General Rules
+## Basics
 
 * No code can commit to the repository, without a JIRA issue and a commit related to that issue
-* Create branches over the JIRA (except the master branch)
+* Create all branches over the JIRA
 * Every Release must have a *Release Package* on the JIRA
 * Every Release, Feature or Bugfix …etc. must have an own branch
-* For each commit add the JIRA Issue Key in the “commit description”
+* For each commit add the JIRA Issue Key in the "commit description"
 * Never push to the master without a Pull request
-* After pushing to the master add a tag for that commit. You should always be able to back that specific release (time-traveling) for starting a hotfix 
+* After pushing to the master add a tag for that commit. You should always be able to back that specific release (time-traveling) for starting a hotfix
 * After pushing to the master close push option for the release branches
 * Create the release branch as late as possible.
 * While you're working with a dependency manager (SPM, Cocoapods, Gradle ...etc.) for 3rth party libraries, be sure you specify the current version that has been used in your app via a fixed version number. With this method, all developers will fetch the same version of that repository. Also, if you back to another tag in your master branch sometime in the future, you'll get the same exact version same as the market version. This is very critical for hotfix scenarios.
@@ -18,8 +18,8 @@
 * All your branch names must be in lowercase
 * Your master branch should be named as "master" or "main"
 * Use this formatting for your release branches: release-1.3 or release-1.1.3
-* Update your build number only if you send a build for Testflight or QA Team. If you have a freshly started project, start from number "1". 
-Don't use a Build Phase script for increasing your build number for each build. 
+* Update your build number only if you send a build for Testflight or QA Team. If you have a freshly started project, start from number "100". 
+* Don't use a Build Phase script for increasing your build number for each build. 
 * Use this tag formatting: 
 ```
 v[version].[build number]
@@ -38,6 +38,10 @@ v1.5.9.201
 ```
 
 ⚠️ **short-title** is a maximum of 5 words that describe what that issue is about.
+
+* Avoid long descriptive names for long-lived branches
+* ---wip_login_module_which_will_used_in_the_internal_website--- *Incorrect*
+* ---wip_feature_login_module--- *Correct*
 
 # How to create a branch on the JIRA Software
 
