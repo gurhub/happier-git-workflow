@@ -40,8 +40,8 @@ v1.5.9.201
 ⚠️ **short-title** is a maximum of 5 words that describe what that issue is about.
 
 * Avoid long descriptive names for long-lived branches
-* ---wip_login_module_which_will_used_in_the_internal_website--- *Incorrect*
-* ---wip_feature_login_module--- *Correct*
+  * wip_login_module_which_will_used_in_the_internal_website **Incorrect**
+  * wip_feature_login_module **Correct**
 
 # How to create a branch on the JIRA Software
 
