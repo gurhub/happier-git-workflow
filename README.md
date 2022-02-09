@@ -1,5 +1,14 @@
 # Happier Git Workflow
 
+
+## Summary
+
+This document describes Mobile Workflow for the mobile department and the outsourced resources. From now we'll use the term Developer to describe someone working directly or as an outsource for TMRW or its sub-companies.
+
+Your responsibility as a developer is to follow this repository via your favorite git tool for future updates
+
+# Git Workflow
+
 ## Basics
 
 * No code can commit to the repository, without a JIRA issue and a commit related to that issue
@@ -20,28 +29,58 @@
 * Use this formatting for your release branches: release-1.3 or release-1.1.3
 * Update your build number only if you send a build for Testflight or QA Team. If you have a freshly started project, start from number "100". 
 * Don't use a Build Phase script for increasing your build number for each build. 
-* Use this tag formatting: 
-```
-v[version].[build number]
-```		
-an example would be:
-```
-v1.5.9.201
-```
-
+* Use this tag formatting:  **v[version].[build number]**. Example: **v1.5.9.201**
 * Your branches must have formatting like the line below:
-
-```
-* feature/your-jira-issue-key-[short-title]
-* bugfix/your-jira-issue-key-[short-title]
-* release/release-1.5.9
-```
-
-⚠️ **short-title** is a maximum of 5 words that describe what that issue is about.
+  * feature/your-jira-issue-key-[short-title]
+  * bugfix/your-jira-issue-key-[short-title]
+  * release/release-1.5.9
+  
+  *⚠️ **short-title** is a maximum of 5 words that describe what that issue is about.*
 
 * Avoid long descriptive names for long-lived branches
-  * wip_login_module_which_will_used_in_the_internal_website **Incorrect**
-  * wip_feature_login_module **Correct**
+  * ../wip_login_module_which_will_used_in_the_internal_website **Incorrect**
+  * ../wip_feature_login_module **Correct**
+  
+# Versioning 
+
+Sometimes we're finishing a sprint but not sending any version to the market. But we've to track every version and know exactly which version is tested and released on the market. If not any way we need to track those too.
+
+To solve this issue, we're adding a small step for standard Semantic Versioning, but only for branch naming. For the market version, we'll stick with the Semantic Versioning.
+
+#### Formats
+
+| Type       | Example                                    |
+| :---       | :---                                       |
+| Branch     | release-[MAJOR].[MINOR].[PATCH].[SPRINT]** |
+| Market     | [MAJOR].[MINOR].[PATCH]                    |
+| IDE        | [MAJOR].[MINOR].[PATCH].[BUILD]            |
+| Tag on Git | v[MAJOR].[MINOR].[PATCH].[BUILD]           |
+
+**release-[MAJOR].[MINOR].[PATCH].[SPRINT]**
+**[MAJOR].[MINOR].[PATCH]**
+
+#### Scenario 1
+
+We're on alpha phase, not sending to market. Sprint number is **2**. Build number is **123**.
+
+| Type       | Example         |
+| :---       | :---            |
+| Branch     | release-1.0.0.2 |
+| Market     | 1.0.0           |
+| IDE        | 1.0.0.123       |
+| Tag on Git | v1.0.0.123      |
+
+
+#### Scenario 2
+
+We're sending to the market. Sprint number is **3**. Build number is **127**.
+
+| Type       | Example         |
+| :---       | :---            |
+| Branch     | release-1.0.1.3 |
+| Market     | 1.0.1           |
+| IDE        | 1.0.1.127       |
+| Tag on Git | v1.0.1.127      |
 
 # How to create a branch on the JIRA Software
 
